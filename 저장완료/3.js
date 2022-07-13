@@ -10,6 +10,8 @@ const krages = krage(1221);
 
 console.log(krages);
 
+return 은 javascript에서 종료 시점
+
 */
 
 const cal = {
@@ -31,3 +33,7 @@ console.log(cal.minus(10,1));
 console.log(cal.devide(40,5));
 console.log(cal.rr(4,6));
 console.log(cal.rx(4,2));
+
+const test = cal.add(4,1222);
+
+console.log(test)
