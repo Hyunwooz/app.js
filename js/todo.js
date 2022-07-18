@@ -25,6 +25,8 @@ JSON.stringify(); 는 array를 단순한 string으로 변환해준다.
 JSON.parse(); 는 단순한 string을 object로 변환해준다.
 .foreach( item => b ); 는 각각의 item 들을 실행시킨다.
 
+
+preventDefault() << 새로고침 방지
 -------------------------------------------
 
 function sayHellow(itme) {
